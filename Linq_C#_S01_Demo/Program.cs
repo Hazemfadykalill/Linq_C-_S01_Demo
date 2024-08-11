@@ -106,6 +106,14 @@ namespace Linq_C__S01_Demo
             //}
 
             #endregion
+
+
+            #endregion
+
+            #region LINQ Execution
+            //1 . Differed Execution Way  [At Run Time]      [10 Category From 13]
+            //2 . Immediate Execution Way [At Compile Time]  [3 Category From 13]
+
             #endregion
 
 
