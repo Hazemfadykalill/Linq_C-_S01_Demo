@@ -1,4 +1,6 @@
-﻿namespace Linq_C__S01_Demo
+﻿using static System.Runtime.InteropServices.JavaScript.JSType;
+
+namespace Linq_C__S01_Demo
 {
     internal class Program
     {
@@ -28,6 +30,13 @@
             //dynamic can use (parameter ,return type) with function 
             #endregion
 
+            #endregion
+
+            #region Extension Method
+
+            //int x = 567;
+            //x.ReverseNumber();
+            //Console.WriteLine(x.ReverseNumber());  //765 
             #endregion
         }
     }
