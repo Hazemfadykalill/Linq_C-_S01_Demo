@@ -116,6 +116,12 @@ namespace Linq_C__S01_Demo
 
             #endregion
 
+            #region List Generator
+
+
+            Console.WriteLine(ListGenerator.ProductsList[0]);
+            #endregion
+
 
             #endregion
         }
