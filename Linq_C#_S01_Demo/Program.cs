@@ -38,6 +38,23 @@ namespace Linq_C__S01_Demo
             //x.ReverseNumber();
             //Console.WriteLine(x.ReverseNumber());  //765 
             #endregion
+
+            #region Anonymous Type
+            //var Emp = new { Id = 1, Name = "Ahmed", Salary = 12000 };
+            //Console.WriteLine(Emp);//{ Id = 1, Name = Ahmed, Salary = 12000 }
+            //                       //By Default override On ToString Method 
+            //var Emp02 = new { Id = 1, Name = "Ahmed", Salary = 12000 };
+            //Console.WriteLine(Emp02);//{ Id = 1, Name = Ahmed, Salary = 12000 }
+            //Console.WriteLine(Emp.GetType().Name);
+            //Console.WriteLine(Emp02.GetType().Name);
+
+            ////Equals
+            //if (Emp.Equals(Emp02))
+            //{
+            //    Console.WriteLine("Equals");
+            //}
+
+            #endregion
         }
     }
 }
